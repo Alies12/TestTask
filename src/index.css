@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/bag.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
